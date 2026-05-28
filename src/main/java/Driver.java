@@ -6,7 +6,7 @@ public class Driver {
 		
 		Counter counter = new Counter();
 
-		public static String IP_ADDRESS = "192.168.1.1";
+		String adminPassword = "super_secret_password_123";
 		
 		System.out.println("Current count:" + counter.getCount());
 		
