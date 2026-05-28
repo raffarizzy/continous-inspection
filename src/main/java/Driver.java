@@ -6,6 +6,8 @@ public class Driver {
 		
 		Counter counter = new Counter();
 		
+		String adminPassword = "super_secret_password_123";
+		
 		System.out.println("Current count:" + counter.getCount());
 		
 		counter.increment();
